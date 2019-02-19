@@ -1,0 +1,148 @@
+@font-face {
+    src: url("res/SFPixelateShaded-Bold.ttf");
+}
+@font-face {
+    src: url("res/SFPixelate.ttf");
+}
+
+.root {
+    -fx-background-color: White;
+}
+
+.check-box {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 15;
+}
+
+.button {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 18;
+    -fx-text-fill: #ffffff;
+    -fx-background-image: url("res/btn.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 115 40;
+}
+
+.button:pressed {
+    -fx-background-image: url("res/btn_pressed.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 115 40;
+}
+
+.startAndQuitBtn {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 18;
+    -fx-text-fill: #ffffff;
+    -fx-background-image: url("res/btn.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 115 40;
+}
+
+.startAndQuitBtn:pressed {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 18;
+    -fx-text-fill: #000000;
+    -fx-background-image: url("res/btn_StartAndQuit_pressed.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 115 40;
+}
+
+.label {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 35;
+}
+
+#title {
+    -fx-font-family: "SF Pixelate Shaded", bold;
+    -fx-font-size: 40;
+}
+
+.check-box .box {
+    -fx-font-family: "SF Pixelate";
+    -fx-background-color: white;
+    -fx-border-radius:3px;
+    -fx-border-color:#707063ff;
+
+}
+
+.check-box.label {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 100;
+}
+
+.check-box:selected .mark {
+    -fx-font-family: "SF Pixelate";
+    -fx-background-color: #fa4659ff;
+}
+
+.check-box:selected .box {
+    -fx-font-family: "SF Pixelate";
+    -fx-background-color: #a3de83ff;
+    -fx-border-radius:3px;
+    -fx-border-color:#707063ff;
+}
+
+.text-field {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 15;
+    -fx-background-color: white;
+    -fx-border-radius:3px;
+    -fx-border-color:#707063ff;
+}
+
+.text-field:focused {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 15;
+    -fx-background-color: #a3de83ff;
+    -fx-border-radius:3px;
+    -fx-border-color:#707063ff;
+}
+
+#backgroundPane {
+    -fx-background-image: url("res/MainMenuBackground.png");
+    -fx-background-size: 800 800;
+}
+
+#menuBar {
+    -fx-background-image: url("res/MenuBar.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 630;
+}
+
+#welcomeLabel {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 18;
+}
+
+
+#applelabel {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 15;
+}
+
+#gameOverLabel {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 30;
+}
+#gameWonLabel {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 30;
+}
+#scoreLabel {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 20;
+}
+#highScoreButton {
+    -fx-font-family: "SF Pixelate";
+    -fx-padding: 15;
+    -fx-background-size: 160 50;
+    -fx-font-size: 15;
+}
+#highScoreLabel {
+    -fx-font-family: "SF Pixelate";
+    -fx-font-size: 20;
+}
+#userNameTextField {
+    -fx-font-family: "SF Pixelate";;
+    -fx-font-size: 15;
+}
